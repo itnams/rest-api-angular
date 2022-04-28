@@ -1,0 +1,8 @@
+<div>
+    <button (click)="loadPostPost()"> call now</button>
+    <div *ngFor="let post of posts">
+      <H1>{{post.title}}</H1>
+      <p>{{post.body}}</p>
+      <hr>
+    </div>
+  </div>
